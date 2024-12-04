@@ -1,0 +1,75 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.add-request-button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-request-button:hover {
+  background-color: #0056b3;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f4f4f4;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Status highlighting */
+.approved {
+  background-color: #d4edda; /* Green background */
+  color: #155724; /* Dark green text */
+}
+
+.inprogress {
+  background-color: #fff3cd; /* Yellow background */
+  color: #856404; /* Dark yellow text */
+}
+
+.rejected {
+  background-color: #f8d7da; /* Red background */
+  color: #721c24; /* Dark red text */
+}
+
+/* Loading and error messages */
+.loading, .error {
+  padding: 20px;
+  text-align: center;
+}
+
+.loading {
+  color: #007bff;
+}
+
+.error {
+  color: #dc3545;
+}

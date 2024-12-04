@@ -1,0 +1,49 @@
+/* MTeamList.css */
+
+.mteam-list-container {
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+.loading {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.error {
+  color: red;
+  font-size: 1.2em;
+}
+
+.approved {
+  color: green;
+  font-weight: bold;
+}
+
+.rejected {
+  color: red;
+  font-weight: bold;
+}
+
+.pending {
+  color: orange;
+  font-weight: bold;
+}
+
+button {
+  margin-right: 5px;
+}
